@@ -53,27 +53,229 @@ body {
 
 .nav-item li {
     list-style: none;
+    padding-right: 32px
 }
 
 .nav-item li a {
     text-decoration: none;
-    padding-right: 32px;
     color: #3C354F;
-    text-align: center;
     font-size: 18px;
     font-weight: 500;
+    text-align: center;
 }
 
-.nav-item li button {
+.nav-item button {
     color: #3C354F;
     text-align: center;
     font-size: 18px;
     font-weight: 500;
     border: none;
-    padding: 10px 32px;
+    padding: 17px 24px;
+    background: rgba(11, 2, 35, 0.10);
 }
 
 .fa-youtube {
     padding-left: 24px;
     padding-right: 16px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive for Laptop Devices */
+
+@media screen and (max-width: 1200px) {
+
+    .container {
+        max-width: 992px;
+    }
+    
+
+}
+
+
+
+/* Responsive for Laptop Devices */
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        max-width: 650px;
+    }
+
+    .logo-area {
+        width: 40%;
+        gap: 15px;
+    }
+
+    .logo-area h3 {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .nav-area {
+        width: 60%;
+    }
+
+    .nav-item li {
+        list-style: none;
+        padding-right: 15px
+    }
+    
+    .nav-item li a {
+        font-size: 16px;
+    }
+    
+    .nav-item button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .fa-youtube {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    
+}
+
+
+/* Responsive for Mobile Devices */
+
+@media screen and (max-width: 575px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    .logo-area {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .nav-area {
+        width: 100%;
+    }
+
+    .nav-item {
+        flex-direction: column;
+    }
+
+    .nav-item li:first-child {
+        margin-bottom: 25px;
+    }
+
+    .nav-item button {
+        margin-top: 40px;
+    }
+}
+
