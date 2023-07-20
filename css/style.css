@@ -172,9 +172,8 @@ body {
 
 .play-instantly-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px;
 }
 
 .play-instantly-text {
@@ -182,7 +181,7 @@ body {
 }
 
 .play-instantly-text h2 {
-    text-align: right;
+    width: 57.5%;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
@@ -190,7 +189,6 @@ body {
 
 .play-instantly-text p {
     margin-top: 24px;
-    text-align: right;
     color: #534C64;
     font-size: 18px;
     font-weight: 400;
@@ -199,29 +197,22 @@ body {
 
 
 .play-instantly-img {
-    text-align: right;
     width: 50%;
     position: relative;
 }
 
-.play-instantly-img img {
-    width: 70%;
-    height: 70vh;
-    object-fit: contain;
+.play-instantly-img .hero-img {
+    max-width: 500px;
 }
 
-.first-img {
-    width: 700px;
-}
-
-.play-instantly-img .section-img {
+.play-instantly-img .tom-img {
     position: absolute;
-    bottom: -35%;
-    left: 15%;
-    width: 200px;
+    left: -22%;
+    bottom: -12%;
 }
 
 
+/* game-catagory-container */
 
 .game-catagory-container {
     display: grid;
@@ -237,11 +228,6 @@ body {
     align-items: center;
     justify-content: center;
     padding: 5px 10px;
-}
-
-.action-games div img {
-    /* width: 200px;
-    height: 200px; */
 }
 
 .action-games h5 {
@@ -262,7 +248,7 @@ body {
     margin-bottom: 30px;
 }
 
-/* funny-video-container */
+/* Funny Video Section Styles*/
 
 .funny-video-container {
     margin-top: 100px;
@@ -325,8 +311,6 @@ body {
     display: block;
 }
 
-
-
 .img-item p {
     color: #534C64;
     font-size: 20px;
@@ -359,6 +343,7 @@ body {
     text-align: center;
     margin-top: 10px;
     color: #FF42A5;
+    font-weight: 400;
 }
 
 
@@ -495,6 +480,49 @@ body {
     .img-item {
         width: 300px;
     }
+    /* play-instantly-container */
+
+    .play-instantly-container{
+        margin: 0px 0px 0px 50px;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .play-instantly-text {
+        width: 100%;
+    }
+
+    .play-instantly-text h2 {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .play-instantly-text p {
+        font-size: 16px;
+    }
+
+
+    .play-instantly-img {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+    .hero-img img {
+        width: 100%;
+    }
+
+    .tom-img{
+        width: 55%;
+        position: absolute;
+    }
+
+    .tom-img img{
+        width: 100%;
+    }
 }
 
 
@@ -561,4 +589,47 @@ body {
         margin-right: 0px;
     }
     
+    /* play-instantly-container */
+
+    .play-instantly-container{
+        margin: 0px 0px 0px 50px;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .play-instantly-text {
+        width: 100%;
+    }
+
+    .play-instantly-text h2 {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .play-instantly-text p {
+        font-size: 16px;
+    }
+
+
+    .play-instantly-img {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+    .hero-img img {
+        width: 100%;
+    }
+
+    .tom-img{
+        width: 55%;
+        position: absolute;
+    }
+
+    .tom-img img{
+        width: 100%;
+    }
 }
